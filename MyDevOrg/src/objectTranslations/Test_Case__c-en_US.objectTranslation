@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Cases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Result and Screen shots --></label>
+        <name>Actual_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Results --></label>
+        <name>Expected_Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed &amp; Approved</masterLabel>
+            <translation><!-- Reviewed &amp; Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Executed</masterLabel>
+            <translation><!-- Testing Executed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Not Started</masterLabel>
+            <translation><!-- Testing Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Synopsis --></label>
+        <name>Synopsis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Assigned To --></label>
+        <name>Test_Assigned_To__c</name>
+        <relationshipLabel><!-- Test Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Purpose --></label>
+        <name>Test_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Data Fix</masterLabel>
+            <translation><!-- Data Fix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment – Testing</masterLabel>
+            <translation><!-- Deployment – Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment – User</masterLabel>
+            <translation><!-- Deployment – User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression – Testing</masterLabel>
+            <translation><!-- Regression – Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression – User</masterLabel>
+            <translation><!-- Regression – User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Feature Acceptance</masterLabel>
+            <translation><!-- User Feature Acceptance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Steps --></label>
+        <name>Test_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>User_Story__c</name>
+        <relationshipLabel><!-- Test Cases --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Test Case Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Testing Detail --></label>
+            <section>Testing Detail</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

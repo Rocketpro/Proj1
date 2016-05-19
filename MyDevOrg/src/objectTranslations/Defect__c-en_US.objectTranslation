@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Defect</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Defects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Analysis --></label>
+        <name>Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Defects (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Detected --></label>
+        <name>Date_Detected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Resolved --></label>
+        <name>Date_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detected By --></label>
+        <name>Detected_By__c</name>
+        <relationshipLabel><!-- Defects (Detected By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment Detected In --></label>
+        <name>Environment_Detected_In__c</name>
+        <picklistValues>
+            <masterLabel>Component testing</masterLabel>
+            <translation><!-- Component testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Verification Testing</masterLabel>
+            <translation><!-- Functional Verification Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROD</masterLabel>
+            <translation><!-- PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance testing</masterLabel>
+            <translation><!-- Performance testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirements</masterLabel>
+            <translation><!-- Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIT</masterLabel>
+            <translation><!-- SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staging</masterLabel>
+            <translation><!-- Staging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit testing</masterLabel>
+            <translation><!-- Unit testing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Results --></label>
+        <name>Expected_Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase Detected In --></label>
+        <name>Phase_Detected_In__c</name>
+        <picklistValues>
+            <masterLabel>Component testing</masterLabel>
+            <translation><!-- Component testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Verification Testing</masterLabel>
+            <translation><!-- Functional Verification Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance testing</masterLabel>
+            <translation><!-- Performance testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirements</masterLabel>
+            <translation><!-- Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIT</masterLabel>
+            <translation><!-- SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staging</masterLabel>
+            <translation><!-- Staging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit testing</masterLabel>
+            <translation><!-- Unit testing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Backlog --></label>
+        <name>Product_Backlog__c</name>
+        <relationshipLabel><!-- Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>Root_Cause__c</name>
+        <picklistValues>
+            <masterLabel>Code</masterLabel>
+            <translation><!-- Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data</masterLabel>
+            <translation><!-- Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment</masterLabel>
+            <translation><!-- Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping</masterLabel>
+            <translation><!-- Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed Requirement</masterLabel>
+            <translation><!-- Missed Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Requirement</masterLabel>
+            <translation><!-- New Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redesign</masterLabel>
+            <translation><!-- Redesign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Case</masterLabel>
+            <translation><!-- Test Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working as designed</masterLabel>
+            <translation><!-- Working as designed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>1-Critical</masterLabel>
+            <translation><!-- 1-Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-High</masterLabel>
+            <translation><!-- 2-High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Medium</masterLabel>
+            <translation><!-- 3-Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-Low</masterLabel>
+            <translation><!-- 4-Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More Info</masterLabel>
+            <translation><!-- More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Repro</masterLabel>
+            <translation><!-- No Repro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Bug</masterLabel>
+            <translation><!-- Not Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <layouts>
+        <layout>Bug Layout</layout>
+        <sections>
+            <label><!-- Analysis and Resolution --></label>
+            <section>Analysis and Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Defect Details --></label>
+            <section>Defect Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

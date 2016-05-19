@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Component</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Components</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Component API Name --></label>
+        <name>Component_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>Component_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Package --></label>
+        <name>Deoloyment_Package__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment Type --></label>
+        <name>Deployment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Change Set</masterLabel>
+            <translation><!-- Change Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Fix</masterLabel>
+            <translation><!-- Data Fix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eclipse</masterLabel>
+            <translation><!-- Eclipse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration Job</masterLabel>
+            <translation><!-- Integration Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do item --></label>
+        <name>Do_item__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New --></label>
+        <name>New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development in progress</masterLabel>
+            <translation><!-- Development in progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for testing</masterLabel>
+            <translation><!-- Ready for testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test – Fail</masterLabel>
+            <translation><!-- Test – Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test – Pass</masterLabel>
+            <translation><!-- Test – Pass --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Component Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

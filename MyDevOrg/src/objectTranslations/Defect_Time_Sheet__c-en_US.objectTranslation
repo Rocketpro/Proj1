@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Defect Time Sheet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Defect Time Sheets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>Defect__c</name>
+        <relationshipLabel><!-- Defect Time Sheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Developer Name --></label>
+        <name>Developer_Name__c</name>
+        <relationshipLabel><!-- Defect Time Sheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hours worked --></label>
+        <name>Hours_worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timesheet Date --></label>
+        <name>Timesheet_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work description --></label>
+        <name>Work_description__c</name>
+    </fields>
+    <layouts>
+        <layout>Defect Time Sheet Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

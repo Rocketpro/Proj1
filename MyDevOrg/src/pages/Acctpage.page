@@ -1,0 +1,21 @@
+<apex:page standardController="Account">
+  <apex:pageblock >
+  
+  <apex:pageblockSection Title="Account Page">
+  
+  <apex:pageBlockSectionItem >
+  <apex:outputField value="{!Account.Name}"/>
+  </apex:pageBlockSectionItem>
+  
+  <apex:pageBlockSectionItem >
+  <apex:outputField value="{!Account.AccountNumber}"/>
+  </apex:pageBlockSectionItem>
+  
+  <apex:pageBlockSectionItem >
+  <apex:outputField value="{!Account.Description}"/>
+  </apex:pageBlockSectionItem>
+  
+  </apex:pageblockSection>
+  
+  </apex:pageblock>
+</apex:page>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Items</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Itemss</value>
+    </caseValues>
+    <fields>
+        <label><!-- Commitment Date --></label>
+        <name>Commitment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Do item --></label>
+        <name>Related_Do_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-work</masterLabel>
+            <translation><!-- Re-work --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Item Name --></label>
+        <name>Test_Item_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tester name --></label>
+        <name>Tester_name__c</name>
+        <relationshipLabel><!-- Test Itemss --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Test Items Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

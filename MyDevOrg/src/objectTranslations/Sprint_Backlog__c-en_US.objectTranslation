@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sprint Backlog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sprint Backlogs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual End Date --></label>
+        <name>Actual_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Start Date --></label>
+        <name>Actual_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned End Date --></label>
+        <name>Planned_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Start Date --></label>
+        <name>Planned_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned effort --></label>
+        <name>Planned_effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Sprint Backlogs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Synopsis --></label>
+        <name>Synopsis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work completed (In hours) --></label>
+        <name>Work_completed_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work remaining (In hours) --></label>
+        <name>Work_remaining_hours__c</name>
+    </fields>
+    <layouts>
+        <layout>Sprint Backlog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
