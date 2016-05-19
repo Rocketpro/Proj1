@@ -20,6 +20,8 @@ global class batchProjectUpdate implements Database.Batchable<sObject> {
          a.stock_value__c = Integer.valueOf(Price1);
          
          System.debug ('::: stock_value__c is ' +a.stock_value__c);         
+         System.debug ('::: stock_value__c is - ' +a.stock_value__c);         
+         
               
         }
          update scope;
